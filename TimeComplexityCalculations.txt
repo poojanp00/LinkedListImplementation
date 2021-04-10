@@ -1,0 +1,88 @@
+Poojan Patel
+Student ID: patel709
+
+Time Complexity Calculations
+
+Add Method:
+  Time Complexity: O(1)
+
+  This function does not contain any loops or recursion there for the size of
+  data will not affect the time it takes for the function to process the
+  information.
+
+
+Append Method:
+  Time Complexity: O(n)
+
+  This function contains one while loop. The loop checks to make sure if the next
+  pointer is not null. This means that the loop will run one more time for every
+  element in the list.
+
+
+Concatenate Method:
+  Time Complexity: O(n)
+
+  The while loop will run depending on the size of the initial Plist. This shows
+  constant growth. The for loop also has a big O notation of O(n) because it is
+  dependent on the length of the other Plist. This results in the notation n+n = 2n.
+  We can ignore coefficients because they are insignificant when looking at the
+  larger picture.
+
+Delete Method:
+  Time Complexity: O(n)
+
+  This method is dependent on the size of the PList linearly because the while loop
+  only runs as many times as elements in the list. Following the while loop there is
+  an if statement and a for loop in the else part of the statement. These calculations
+  become insignificant in the long run so the lower degree terms and coefficients can
+  be removed
+
+Get Method:
+  Time Complexity: O(n)
+
+  This function contains one while loop. The loop checks to make sure if the next
+  pointer is not null. This means that the loop will run one more time for every
+  element in the list.
+
+
+Insert Method:
+  Time Complexity: O(n)
+
+  Here again, the while loop runs as many times as elements in the list. The other
+  loops and statements add values of lower degree or same degree as the while loop
+  and since we can ignore coefficients this yields the Big O notation of O(n)
+
+Length Method:
+  Time Complexity: O(n)
+
+  This function contains one while loop. The loop checks to make sure if the next
+  pointer is not null. This means that the loop will run one more time for every
+  element in the list.
+
+
+Print Method:
+  Time Complexity: O(n)
+
+  There is an if statement and a while loop in the method. The if statement will
+  run once and the size of the input/list will not affect the time it takes to run.
+  It will run once regardless. The while loop checks the pointers until there is a
+  null pointer. This is dependent on the size of list. This shows constant time
+  complexity. Technically the algorithm would be O(n)+O(1), but since we ignore
+  the details this is O(n).
+
+
+Remove Method:
+  Time Complexity: O(n)
+
+  This method uses a primary if else statement to check for null pointers. In the
+  else part of the statement there is a while loop that is dependent on the size of
+  the PList linearly. The for loop and last if statements add in insignificant
+  calculations to the final answer. After removing lower degree terms and coefficients,
+  the time complexity can be written as O(n).
+
+
+Sort Method:
+  Time Complexity: O(n^2)
+
+  I used a bubble sort to put the list in order lexicographically. The nested for
+  loop time calculation is the only one relevant in the long run.
