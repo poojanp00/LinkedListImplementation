@@ -13,4 +13,4 @@ Pull requests are welcome. :)
 ## Ownership
 Poojan Patel (poojanp00@gmail.com)
 
-Sprint 2019
+Spring 2019
