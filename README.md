@@ -6,8 +6,10 @@ This project implements a PList class that imitates the functionality of Python 
 
 ## Usage
 
-> javac ObjectNode.java
+> javac ObjectNode.java 
+
 > javac PList.java
+
 > java PList
 
 
